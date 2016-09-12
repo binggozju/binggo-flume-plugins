@@ -7,20 +7,42 @@
     <artifactId>binggo-flume-sources</artifactId>
     <version>0.0.1</version>
   </parent>
-  <groupId>org.apache.flume</groupId>
+  
+  <groupId>org.apache.flume.binggo-flume-sources</groupId>
   <artifactId>kafka-source</artifactId>
-  <version>0.0.1</version>
   <name>kafka-source</name>
-  <url>http://maven.apache.org</url>
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <zookeeper.version>3.4.6</zookeeper.version>
+    <kafka.version>0.8.1.1</kafka.version>
   </properties>
+  
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+  
+  	<dependency>
+  		<groupId>org.apache.flume</groupId>
+      	<artifactId>flume-ng-core</artifactId>
     </dependency>
+    
+    <dependency>
+    	<groupId>org.apache.kafka</groupId>
+        <artifactId>kafka_2.10</artifactId>
+        <version>${kafka.version}</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.apache.zookeeper</groupId>
+        <artifactId>zookeeper</artifactId>
+        <version>${zookeeper.version}</version>
+    </dependency>
+    
+    <dependency>
+      	<groupId>junit</groupId>
+      	<artifactId>junit</artifactId>
+      	<scope>test</scope>
+    </dependency>
+    
   </dependencies>
+  
 </project>

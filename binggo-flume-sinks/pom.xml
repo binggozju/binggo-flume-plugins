@@ -6,10 +6,13 @@
     <artifactId>plugins-parent</artifactId>
     <version>0.0.1</version>
   </parent>
+  
   <artifactId>binggo-flume-sinks</artifactId>
   <packaging>pom</packaging>
   <name>Binggo Flume Sinks</name>
+  
   <modules>
     <module>mysql-sink</module>
   </modules>
+  
 </project>

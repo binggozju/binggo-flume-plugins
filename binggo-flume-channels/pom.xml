@@ -6,10 +6,13 @@
     <artifactId>plugins-parent</artifactId>
     <version>0.0.1</version>
   </parent>
+  
   <artifactId>binggo-flume-channels</artifactId>
   <packaging>pom</packaging>
   <name>Binggo Flume Channels</name>
+  
   <modules>
     <module>memory-channel</module>
   </modules>
+  
 </project>
