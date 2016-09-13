@@ -12,7 +12,7 @@
   <name>Binggo Flume Channels</name>
   
   <modules>
-    <module>memory-channel</module>
+    <module>binggo-memory-channel</module>
   </modules>
   
 </project>

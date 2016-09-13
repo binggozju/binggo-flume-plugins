@@ -12,7 +12,7 @@
   <name>Binggo Flume Sinks</name>
   
   <modules>
-    <module>mysql-sink</module>
+    <module>binggo-mysql-sink</module>
   </modules>
   
 </project>

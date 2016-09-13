@@ -4,17 +4,18 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.apache.flume</groupId>
-    <artifactId>binggo-flume-channels</artifactId>
+    <artifactId>binggo-flume-sinks</artifactId>
     <version>0.0.1</version>
   </parent>
-  <groupId>org.apache.flume</groupId>
-  <artifactId>memory-channel</artifactId>
-  <version>0.0.1</version>
-  <name>memory-channel</name>
-  <url>http://maven.apache.org</url>
+  
+  <groupId>org.apache.flume.binggo-flume-sinks</groupId>
+  <artifactId>binggo-mysql-sink</artifactId>
+  <name>binggo-mysql-sink</name>
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -23,4 +24,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
 </project>

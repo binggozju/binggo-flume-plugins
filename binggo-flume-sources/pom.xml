@@ -12,7 +12,7 @@
   <name>Binggo Flume Sources</name>
   
   <modules>
-    <module>kafka-source</module>
+    <module>binggo-kafka-source</module>
   </modules>
   
 </project>
