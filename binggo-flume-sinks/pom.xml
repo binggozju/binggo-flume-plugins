@@ -13,6 +13,7 @@
   
   <modules>
     <module>binggo-mysql-sink</module>
+    <module>binggo-kafka-sink</module>
   </modules>
   
 </project>

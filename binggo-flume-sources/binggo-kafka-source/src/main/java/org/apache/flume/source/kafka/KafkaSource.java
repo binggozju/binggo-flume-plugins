@@ -31,9 +31,11 @@ public class KafkaSource extends AbstractSource implements Configurable, Pollabl
 	
 	private int batchUpperLimit;
 	private int timeUpperLimit;
+	@SuppressWarnings("unused")
 	private int consumerTimeout;
 	private boolean kafkaAutoCommitEnabled;
 	
+	@SuppressWarnings("unused")
 	private Context context;		// configuration info in flume's configuration file
 	private Properties kafkaProps;	// properties relative with kafka consumer
 	

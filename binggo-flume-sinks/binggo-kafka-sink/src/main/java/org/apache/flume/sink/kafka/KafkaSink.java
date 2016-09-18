@@ -1,10 +1,10 @@
-package org.apache.flume.sink.mysql;
+package org.apache.flume.sink.kafka;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class KafkaSink 
 {
     public static void main( String[] args )
     {
