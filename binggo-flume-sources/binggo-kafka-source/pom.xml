@@ -10,7 +10,7 @@
   
   <groupId>org.apache.flume.binggo-flume-sources</groupId>
   <artifactId>binggo-kafka-source</artifactId>
-  <name>binggo-kafka-source</name>
+  <name>Binggo Kafka Source</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -10,7 +10,7 @@
   
   <groupId>org.apache.flume.binggo-flume-channels</groupId>
   <artifactId>binggo-memory-channel</artifactId>
-  <name>binggo-memory-channel</name>
+  <name>Binggo Memory Channel</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

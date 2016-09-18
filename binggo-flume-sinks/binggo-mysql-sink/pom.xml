@@ -10,7 +10,7 @@
   
   <groupId>org.apache.flume.binggo-flume-sinks</groupId>
   <artifactId>binggo-mysql-sink</artifactId>
-  <name>binggo-mysql-sink</name>
+  <name>Binggo Mysql Sink</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
