@@ -13,6 +13,7 @@
   
   <modules>
     <module>binggo-kafka-source</module>
+    <module>binggo-http-source</module>
   </modules>
   
 </project>
